@@ -1,0 +1,68 @@
+---- Aplicando css no html ----
+
+inline - (style) dentro de uma tag, EX: <p style>                                                   
+                                                    </p>
+
+interno - tag propria com a tag que vc quer estilizar dentro <style>
+                                                                 p
+                                                                 </style>
+
+externo - Na seção <head> da sua planilha HTML,
+adicione uma referência para o seu arquivo .css logo depois da tag <title>:
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+---- Estilizando elementos ----
+
+tag - vai estilizar todos os elementos na tag
+ p {
+    color: gray;
+ }
+
+.classe - estiliza um grupo de elementos (dentro da classe definida)
+ .destaque {
+    color: #F32265;
+ }
+
+#id - estiliza um único elemento definido
+ #titulo {
+    font-size: 32px;
+ }
+
+---- Propriedades Essenciais do CSS ----
+
+background-color = EX:
+                       backgroud-color: #f0000;
+
+text-align = EX:
+                  text-align: center;
+
+font-family = EX:
+                  font-family: Arial;
+
+color = EX: 
+            color: #F32265;
+
+---- Espaçamento de um elemento ----
+(exemplo da hierarquia)
+
+    {margin}
+        {border}
+            {padding}
+                {conteudo}
+                {conteudo}
+            {padding}
+        {border}
+    {margin}
+
+-- Hover --
+    Aplica estilos quando o usuário passa o mouse sobre
+EX:
+
+
+    button:hover {
+        backgroud-color: #c0004a
+        transform: scale(1.05);
+    }

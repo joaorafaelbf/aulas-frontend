@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 1;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(103, 182, 150);
+    font-family: fantasy;
+}
+
+button {
+    background-color:rgb(217, 223, 159);
+    color:rgb(14, 15, 1);
+    border-color:rgb(191, 194, 161);
+}
+
+header {
+    text-align: center;
+    border;
+    color: rgb(21, 31, 26)
+}
+
+h2 {
+    font-family: fantasy;
+    color: rgb(21, 31, 26);
+}
+
+p {
+    color: rgb(226, 230, 190);
+}
+
+ul {
+    color: rgb(226, 230, 190);
+}

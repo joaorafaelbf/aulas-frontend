@@ -1,0 +1,26 @@
+---tags < >-------
+
+href - <a href (arquivo que vai mandar ao clicar)>(texto clicavel)</a>
+nav - barra navegação topo
+main - principal, é único e tem a info central
+section - pra separar blocos ou assuntos na pagina, pode ter vários
+footer - parte de baixo, barra de navegação de baixo
+aside - complementar, barras laterais, anuncios, etc
+ul e <li> - nao ordenada com marcadores, quando a ordem nao importa 
+		         ex: <ul>
+				<li>Item 1</li>						
+				<li>Item 2</li>
+			     </ul>	
+ol e <li> - ordenada com números, quando há sequência
+---------------------------------------------------------------------
+
+target no HTML é usado para especificar onde abrir o documento vinculado por um link ou formulário.  Ele é aplicado principalmente na tag <a> (âncora), <form>, <base> e <area>, definindo o destino da navegação. 
+
+Valores principais do atributo target:
+_self: Abre o link na mesma janela ou aba (valor padrão, geralmente não precisa ser especificado). 
+_blank: Abre o link em uma nova aba ou janela. 
+_parent: Abre o link no frame pai (útil em páginas com frames). 
+_top: Abre o link no quadro principal, ou seja, no navegador inteiro, encerrando qualquer estrutura de frames. 
+framename: Abre o link em um frame nomeado (ex: target="meuFrame")
+
+-----------------------------------------------------------------------
