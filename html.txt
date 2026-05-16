@@ -14,7 +14,8 @@ ul e <li> - nao ordenada com marcadores, quando a ordem nao importa
 ol e <li> - ordenada com números, quando há sequência
 ---------------------------------------------------------------------
 
-target no HTML é usado para especificar onde abrir o documento vinculado por um link ou formulário.  Ele é aplicado principalmente na tag <a> (âncora), <form>, <base> e <area>, definindo o destino da navegação. 
+target no HTML é usado para especificar onde abrir o documento vinculado por um link ou formulário.  
+Ele é aplicado principalmente na tag <a> (âncora), <form>, <base> e <area>, definindo o destino da navegação. 
 
 Valores principais do atributo target:
 _self: Abre o link na mesma janela ou aba (valor padrão, geralmente não precisa ser especificado). 
